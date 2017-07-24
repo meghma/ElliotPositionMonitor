@@ -49,7 +49,8 @@ namespace Repository
         {
             IEnumerable<Security> securities = await GetSecuritiesAsync();
             string fileText;
-            using (var reader = File.OpenText("trades.csv"))
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "trades.csv");
+            using (var reader = File.OpenText(path))
             {
                 fileText = await reader.ReadToEndAsync();
             }
@@ -73,7 +74,9 @@ namespace Repository
         public async Task<IEnumerable<Security>> GetSecuritiesAsync()
         {
             string fileText;
-            using (var reader = File.OpenText("securities.csv"))
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "securities.csv");
+            //string path = "securities.csv";
+            using (var reader = File.OpenText(path))
             {
                 fileText = await reader.ReadToEndAsync();
             }

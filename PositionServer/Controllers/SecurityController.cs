@@ -11,7 +11,7 @@ using System;
 
 namespace PositionServer.Controllers
 {
-    [EnableCors(origins: "http://localhost:4200", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://positionview.azurewebsites.net/", headers: "*", methods: "*")]
     [RoutePrefix("api/positionmonitor")]
     public class SecurityController : ApiController
     {

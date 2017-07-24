@@ -11,7 +11,7 @@ using System;
 
 namespace PositionServer.Controllers
 {
-    [EnableCors(origins: "http://positionview.azurewebsites.net/", headers: "*", methods: "*")]
+    [EnableCors(origins: "http://positionview.azurewebsites.net", headers: "*", methods: "*")]
     [RoutePrefix("api/positionmonitor")]
     public class TradeController : ApiController
     {

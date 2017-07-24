@@ -1,0 +1,7 @@
+C:\code\Elliott\PositionMonitor\Entities\bin\Debug\netstandard1.4\Entities.deps.json
+C:\code\Elliott\PositionMonitor\Entities\bin\Debug\netstandard1.4\Entities.dll
+C:\code\Elliott\PositionMonitor\Entities\bin\Debug\netstandard1.4\Entities.pdb
+C:\code\Elliott\PositionMonitor\Entities\obj\Debug\netstandard1.4\Entities.csprojResolveAssemblyReference.cache
+C:\code\Elliott\PositionMonitor\Entities\obj\Debug\netstandard1.4\Entities.AssemblyInfo.cs
+C:\code\Elliott\PositionMonitor\Entities\obj\Debug\netstandard1.4\Entities.dll
+C:\code\Elliott\PositionMonitor\Entities\obj\Debug\netstandard1.4\Entities.pdb

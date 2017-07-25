@@ -1,0 +1,6 @@
+C:\code\Elliott\PositionMonitor\PositionServer.Entities\bin\Debug\PositionServer.Entities.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Entities\bin\Debug\PositionServer.Entities.pdb
+C:\code\Elliott\PositionMonitor\PositionServer.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\code\Elliott\PositionMonitor\PositionServer.Entities\obj\Debug\PositionServer.Entities.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Entities\obj\Debug\PositionServer.Entities.pdb

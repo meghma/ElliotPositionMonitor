@@ -1,0 +1,13 @@
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\obj\Debug\PositionServer.Repository.csprojResolveAssemblyReference.cache
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\PositionServer.Repository.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\PositionServer.Repository.pdb
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\CsvHelper.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\PositionServer.Entities.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\PositionServer.Interfaces.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\PositionServer.Entities.pdb
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\PositionServer.Interfaces.pdb
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\CsvHelper.xml
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\obj\Debug\PositionServer.Repository.dll
+C:\code\Elliott\PositionMonitor\PositionServer.Repository\obj\Debug\PositionServer.Repository.pdb

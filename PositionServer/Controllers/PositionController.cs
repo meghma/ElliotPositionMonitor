@@ -1,25 +1,26 @@
-﻿using System.Collections.Generic;
-using Entities;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using Interfaces;
-using Repository;
 using System.Web.Http.Cors;
 using Newtonsoft.Json;
-using System;
+using PositionServer.Interfaces;
+using PositionServer.Entities;
+using Autofac.Integration.WebApi;
 
 namespace PositionServer.Controllers
 {
     [EnableCors(origins: "http://positionview.azurewebsites.net", headers: "*", methods: "*")]
     [RoutePrefix("api/positionmonitor")]
+    //[AutofacControllerConfiguration]
     public class PositionController : ApiController
     {
         private IPositionRepository _repository;
 
-        public PositionController()
+        public PositionController(IPositionRepository repo)
         {
-            _repository = new PositionRepository();
+            _repository = repo;
         }
 
         [HttpGet]

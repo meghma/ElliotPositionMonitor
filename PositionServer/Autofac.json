@@ -1,0 +1,10 @@
+﻿{
+	"components": [
+			{
+				"type": "PositionServer.Repository.PositionRepository,PositionServer.Repository",
+				"services": "PositionServer.Interfaces.IPositionRepository,PositionServer.Interfaces",
+				"autoActivate": true,
+				"instanceScope": "per-dependency"
+			}
+	]
+}

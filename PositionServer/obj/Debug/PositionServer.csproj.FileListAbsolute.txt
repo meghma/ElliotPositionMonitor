@@ -80,12 +80,6 @@ C:\code\Elliott\PositionMonitor\PositionServer\bin\PositionServer.Entities.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\PositionServer.Interfaces.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\PositionServer.Entities.pdb
 C:\code\Elliott\PositionMonitor\PositionServer\bin\PositionServer.Interfaces.pdb
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.dll
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.Integration.WebApi.dll
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.xml
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.Integration.WebApi.xml
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.json
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.Configuration.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\Microsoft.Extensions.Configuration.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -118,7 +112,6 @@ C:\code\Elliott\PositionMonitor\PositionServer\bin\System.Security.Cryptography.
 C:\code\Elliott\PositionMonitor\PositionServer\bin\System.Security.Cryptography.Primitives.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\System.Security.Cryptography.X509Certificates.dll
 C:\code\Elliott\PositionMonitor\PositionServer\bin\System.Xml.ReaderWriter.dll
-C:\code\Elliott\PositionMonitor\PositionServer\bin\Autofac.Configuration.xml
 C:\code\Elliott\PositionMonitor\PositionServer\bin\Microsoft.Extensions.Configuration.xml
 C:\code\Elliott\PositionMonitor\PositionServer\bin\Microsoft.Extensions.Configuration.Abstractions.xml
 C:\code\Elliott\PositionMonitor\PositionServer\bin\Microsoft.Extensions.Configuration.FileExtensions.xml

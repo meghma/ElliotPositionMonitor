@@ -7,13 +7,11 @@ using Newtonsoft.Json;
 using System;
 using PositionServer.Interfaces;
 using PositionServer.Entities;
-using Autofac.Integration.WebApi;
 
 namespace PositionServer.Controllers
 {
     [EnableCors(origins: "http://positionview.azurewebsites.net", headers: "*", methods: "*")]
     [RoutePrefix("api/positionmonitor")]
-    //[AutofacControllerConfiguration]
     public class SecurityController : ApiController
     {
         private IPositionRepository _repository;

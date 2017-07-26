@@ -9,5 +9,6 @@ namespace PositionServer.Interfaces
         Task<IEnumerable<Position>> GetPositionsAsync();
         Task<IEnumerable<Security>> GetSecuritiesAsync();
         Task<IEnumerable<Trade>> GetTradesAsync();
+        Task SubmitTradeAsync(Trade req);
     }
 }

@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using System.Web.Http.Cors;
 using Newtonsoft.Json;
 using System;
 using PositionServer.Interfaces;
@@ -10,7 +9,6 @@ using PositionServer.Entities;
 
 namespace PositionServer.Controllers
 {
-    [EnableCors(origins: "http://positionview.azurewebsites.net", headers: "*", methods: "*")]
     [RoutePrefix("api/positionmonitor")]
     public class TradeController : ApiController
     {
@@ -31,6 +29,22 @@ namespace PositionServer.Controllers
                 var trades = await _repository.GetTradesAsync();
                 var json = JsonConvert.SerializeObject(trades);
                 return Ok(json);
+            }
+            catch (Exception e)
+            {
+                return InternalServerError(e);
+            }
+        }
+
+        [HttpPost]
+        [Route("trades")]
+        [ResponseType(typeof(IEnumerable<Trade>))]
+        public async Task<IHttpActionResult> SubmitTrade(Trade req)
+        {
+            try
+            {
+                await _repository.SubmitTradeAsync(req);
+                return Ok();
             }
             catch (Exception e)
             {

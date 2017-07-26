@@ -8,7 +8,7 @@ namespace PositionServer.Entities
     public class Trade
     {
         [JsonProperty(PropertyName = "tradeDate")]
-        public DateTime Date { get; set; }
+        public DateTime? Date { get; set; }
         [JsonProperty(PropertyName = "securityId")]
         public int SecurityID { get; set; }
         [JsonProperty(PropertyName = "price")]

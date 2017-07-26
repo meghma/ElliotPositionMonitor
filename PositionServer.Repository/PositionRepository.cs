@@ -43,6 +43,7 @@ namespace PositionServer.Repository
                                 SecurityID = g.Key,
                                 SecurityName = g.FirstOrDefault().s.Name,
                                 AveragePrice = g.Average(x => x.t.Price),
+                                Quantity = g.Sum(x => x.t.Quantity),
                                 NumberOfTrades = g.Count(),
                             };
 
@@ -94,6 +95,12 @@ namespace PositionServer.Repository
             csvFile.Configuration.HasHeaderRecord = true;
             csvFile.Read();
             return csvFile.GetRecords<T>().ToList();
+        }
+
+        public Task SubmitTradeAsync(Trade req)
+        {
+            //update the trades.csv and position.csv
+            throw new NotImplementedException();
         }
     }
 
